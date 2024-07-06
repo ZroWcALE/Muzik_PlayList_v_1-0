@@ -231,3 +231,10 @@ h1 {
   font-weight: 800;
 }
 /* BottomBar / Contact Info End */
+
+/*  PlayList */
+.playlist {
+  padding: 20px 40px;
+}
+
+/* PlayList End */
