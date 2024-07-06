@@ -4,6 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
   </head>
-  <body></body>
+  <body>
+    <h1>Contact Form</h1>
+
+    <h3>Net_Ninja</h3>
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="2f31ddcc-8064-49e0-a88f-9c43b84c14be">
+
+    <input
+      type="text"
+      name="first"
+      placeholder="First Name"
+      autocomplete="off"
+      required
+    />
+    <input
+      type="text"
+      name="last"
+      placeholder="Last Name"
+      autocomplete="off"
+      required
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Email Address"
+      autocomplete="off"
+      required
+    />
+    <textarea
+      rows="5"
+      cols="60"
+      name="message"
+      placeholder="Enter Text"
+      autocomplete="off"
+      required
+    ></textarea>
+    <button type="submit">Send Message</button>
+
+    <br />
+    <br />
+    <br />
+    
+  </body>
 </html>
